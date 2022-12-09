@@ -31,7 +31,7 @@ export default {
 
   render(h) {
     const data = this.data || [];
-    const store = this.store
+    const store = this.store;
     return (
       <table
         class="el-table__body"
